@@ -29,9 +29,9 @@ public class GreetingController {
     }
 
     @Autowired
-    @Qualifier("french")
-    public void setHelloWorldServiceFrench(HelloWorldService helloWorldServiceFrench) {
-        this.helloWorldServiceFrench = helloWorldServiceFrench;
+        @Qualifier("french")
+        public void setHelloWorldServiceFrench(HelloWorldService helloWorldServiceFrench) {
+            this.helloWorldServiceFrench = helloWorldServiceFrench;
     }
 
     public String sayHello(){
